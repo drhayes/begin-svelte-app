@@ -4,7 +4,7 @@ begin-app
 @static
 
 @http
-get /api
+get /api/:userId/:catId
 
 @tables
 data
